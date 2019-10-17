@@ -1,0 +1,48 @@
+.header-container {
+    background-color: #3e484f;
+    height: 6em; 
+    width: 100%; 
+    position: fixed;
+    top: 0;
+}
+.horizontal-nav {
+    margin-left: 775px;
+    padding-top: 21px;
+}
+.horizontal-nav > ul > li {
+    list-style-type: none;
+    display: inline;
+    line-height: 24px;
+}
+.horizontal-nav > ul > li > a {
+    padding: 8px 20px;
+    text-decoration: none;
+    float: none;
+    color: #8c9ca8;
+    font-size: 20px;
+}
+.logo {
+    color: #8c9ca8;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 30px;
+    float: left;
+}
+.main-body {
+  margin-top:40px;
+  background-color: white;
+  padding: 99px;
+  width: 100%; 
+  text-align: left;
+   
+}
+.page-section-content {
+    border-radius: 5px;
+    font-size: 17px;
+    text-align: justify;
+    font-family: "Open Sans",sans-serif;
+    margin-right: 300px;
+}
+#welcome {
+    color: red;
+}
