@@ -9,7 +9,7 @@ public class MainController {
 	
 	private String message = "Hello Friends!! Welcome to the world of Spring Boot.";
 	 
-	 @RequestMapping("/")
+	 @RequestMapping("/welcome")
 	 public String welcome(ModelMap model) {
 	  model.addAttribute("message", this.message);
 	  return "welcome";
